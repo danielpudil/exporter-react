@@ -20,7 +20,6 @@ Pulsar.registerFunction(
 
     // Return camelcased string from all segments
      sentence = sentence
-      .toLowerCase()
       .replace(/[^a-zA-Z0-9]+(.)/g, (m, chr) => chr.toUpperCase());
 
     // only allow letters, digits, underscore

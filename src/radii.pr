@@ -9,8 +9,6 @@ Tokens are named by their group path and then name
 {[ const measureBehavior = getBehavior("measure") /]}
 {[ const behavior = getBehavior(CURRENT_TYPE) /]}
 
-import { {{ measureBehavior.varName }} } from './{{ measureBehavior.fileName }}';
-
 {[ let brand = ds.currentBrand() /]}
 {[ const tokens = ds.tokensByType(CURRENT_TYPE, brand.id) /]}
 {[ for token in tokens ]}

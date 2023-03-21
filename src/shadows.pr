@@ -7,8 +7,6 @@ and their value rendered using `shadow-color` blueprint
 *}
 {[ global CURRENT_TYPE = "Shadow" /]}
 
-{[ const colorBehavior = getBehavior("color") /]}
-{[ const measureBehavior = getBehavior("measure") /]}
 {[ const behavior = getBehavior(CURRENT_TYPE) /]}
 
 {[ let brand = ds.currentBrand() /]}
